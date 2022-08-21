@@ -8,28 +8,39 @@
 img {
   width: 100%;
 }
-nav .nav-item.active {
+
+.active {
   border-bottom: 2px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 16px;
 }
+
 .img-logo {
   width: 15rem;
 }
+
 section .container {
   max-width: 900px;
 }
+
 section .container .img-big {
   height: 35rem;
 }
+
 section .container .avatar-img {
   height: 12rem;
 }
-section .container  small {
+
+section .container small {
   max-width: 25rem;
 }
+
 section .container .avatar-img {
   width: 70px;
   height: auto;
 }
+
 .icon-app {
   width: 25px;
   height: 25px;
